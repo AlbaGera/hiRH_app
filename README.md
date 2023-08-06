@@ -31,5 +31,5 @@
 ## Navegador
 1. Verificar que los documentos `.php ` de la carpeta `xampp/htdocs/puenteproyecto` funcionen correctamente.
 
-#Ejecutar la aplicación uwu
+# Ejecutar la aplicación uwu
 
