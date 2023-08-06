@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/secundario2"
+    android:backgroundTint="@color/secundario2"
+    tools:context=".VacacionesActivity">
+
+    <LinearLayout
+        android:layout_width="340dp"
+        android:layout_height="584dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.847">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="match_parent"
+            android:layout_height="128dp"
+            app:srcCompat="@drawable/logo2" />
+
+        <TextView
+            android:id="@+id/textHome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="Solicita vacaciones"
+            android:textAlignment="center"
+            android:textColor="@color/principal"
+            android:textSize="24sp" />
+
+
+        <EditText
+            android:id="@+id/edtNumEmp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:ems="10"
+            android:hint="Número de empleado"
+            android:inputType="number"
+            android:textAlignment="center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.188" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:layout_marginTop="25dp"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/edtFechai"
+                android:layout_width="242dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:ems="10"
+                android:hint="Fecha Incio (xxxx-xx-xx)"
+                android:inputType="date"
+                android:textAlignment="center" />
+
+            <Button
+                android:id="@+id/btnfechaini"
+                android:layout_width="81dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="5dp"
+                android:backgroundTint="@color/principal"
+                android:textColor="#FDFDFD"
+                android:textSize="20sp"
+                app:cornerRadius="5dp"
+                app:icon="@drawable/calendar"
+                app:iconSize="35dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.52"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.757" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:layout_marginTop="25dp"
+
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/edtFechaf"
+                android:layout_width="242dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:ems="10"
+                android:hint="Fecha fin (xxxx-xx-xx)"
+                android:inputType="date"
+                android:textAlignment="center" />
+
+            <Button
+                android:id="@+id/btnfechainf"
+                android:layout_width="81dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="5dp"
+                android:backgroundTint="@color/principal"
+                android:textColor="#FDFDFD"
+                android:textSize="20sp"
+                app:cornerRadius="5dp"
+                app:icon="@drawable/calendar"
+                app:iconSize="35dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.52"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.757" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btnSolicitud"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:backgroundTint="@color/principal"
+                android:text="Mandar mi solicitud"
+                android:textColor="#FDFDFD"
+                android:textSize="20sp"
+                app:cornerRadius="5dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.52"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.757" />
+
+            <Button
+                android:id="@+id/btnVerSolicitud"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="5dp"
+                android:backgroundTint="@color/principal"
+                android:text="Ver mis solicitudes"
+                android:textColor="#FDFDFD"
+                android:textSize="20sp"
+                app:cornerRadius="5dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.52"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.757" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
