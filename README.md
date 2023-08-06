@@ -18,12 +18,12 @@
    
 ### Ejemplo
    
-      `btnbuscar.setOnClickListener(new View.OnClickListener() {`
-        ` @Override`
-        ` public void onClick(View view) {`
-           ` buscarProducto("http://192.168.100.47/puenteproyecto/buscar.php?id_ticket="+edtnumticket.getText()+"");`
-        ` }`
-      `});`
+      btnbuscar.setOnClickListener(new View.OnClickListener() {
+         @Override`
+         public void onClick(View view) {
+            buscarProducto("http://192.168.100.47/puenteproyecto/buscar.php?id_ticket="+edtnumticket.getText()+"");
+         }
+      });
 
 ## Data Base
 1. Importar DB a phpmyadmyn.
