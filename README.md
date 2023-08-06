@@ -1,4 +1,4 @@
-# proyecto hi!RH
+# Proyecto hi!RH
 ## Aplicación móvil
 
 1. Tener instalado XAMPP, Android Studio y VsualStudio.
