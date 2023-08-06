@@ -11,19 +11,19 @@
 ## CMD
 1.identificar la dirección IP de tu equipo.
 
-   `ipconfig /all`
+      `ipconfig /all`
 
 ## Android Studio
 1. Modificar todas las direcciones IP de los metodos onlick de los botones.
    
 ### Ejemplo
-
-   `btnbuscar.setOnClickListener(new View.OnClickListener() {
-      @Override
-      public void onClick(View view) {
-         buscarProducto("http://192.168.100.47/puenteproyecto/buscar.php?id_ticket="+edtnumticket.getText()+"");
-      }
-   });`
+   
+      `btnbuscar.setOnClickListener(new View.OnClickListener() {`
+        ` @Override`
+        ` public void onClick(View view) {`
+           ` buscarProducto("http://192.168.100.47/puenteproyecto/buscar.php?id_ticket="+edtnumticket.getText()+"");`
+        ` }`
+      `});`
 
 ## Data Base
 1. Importar DB a phpmyadmyn.
